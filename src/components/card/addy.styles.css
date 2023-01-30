@@ -1,0 +1,151 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content:space-evenly;
+  width: 50%;
+  margin-left: 45%;
+  top: 0;
+  font-size: 20px;
+  padding-top: 30px;
+  
+}
+.nav a {
+  color: rgb(3, 2, 2);
+  text-decoration: none;
+  font-weight: 900;
+  text-transform: capitalize;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+a:hover{
+  color: rgb(231, 176, 23);
+  border-radius: 50%;
+  background-image: rgba(95, 19, 19, 0.97);
+  font-size: larger;
+  transition: transform .8s cubic-bezier(0.86, 0, 0.07, 1);
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #95dada;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 25px;
+    cursor: pointer;
+    -moz-osx-font-smoothing: grayscale;
+    backface-visibility: hidden;
+    transform: translateZ(0);
+    transition: transform 0.25s ease-out;
+  }
+  
+  .card-container:hover {
+    transform: scale(1.05);
+  }
+  .searchbox{
+    position: relative; 
+    box-sizing: border-box;
+    display: flex;
+    margin-top: 45vh;
+}
+.container {
+  margin: 0px auto;
+  
+}
+
+
+  .search{
+    position: relative; 
+    box-sizing: border-box;
+    display: flex;
+    margin-top: 30vh;
+    box-sizing: border-box;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    font-size: large;
+    font-weight: 700; 
+   
+  }
+  .searcharea{  
+    display: inline-block;
+    height: 90px;
+    text-overflow: hidden;
+    border-radius: 50px;
+    font-size: larger;
+  
+}
+.faform{
+display: block;
+}
+h1{
+  color: #000000;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+}
+
+input[type=text]{
+    padding: 12px 8vw;
+    font-size: large;
+    font-weight: 700; 
+    border: 2px solid blanchedalmond;
+    border-radius: 50px;
+    box-sizing: border-box;
+    outline: none;
+    width: 60%;
+    
+ 
+}
+h2{
+    color: rgb(4, 8, 4);
+    text-transform: uppercase;
+    font-weight: 900;
+    box-sizing: border-box;
+}
+.luck{
+  color: rgb(7, 5, 4);
+}
+  .button{
+    display: inline-block;
+    background-color: rgb(3, 5, 5); 
+    font-size: large;  
+    border-radius: 50px;
+    cursor: pointer;
+    text-decoration: none;
+    box-sizing: border-box;
+    margin-left: -21vw;
+    padding: 19px 5px;
+    width: 20%;
+    color: white;
+    text-transform: uppercase;
+    font-size: larger;
+    
+  }
+  .footer{
+    height: 100%;
+    display: flex;
+    margin-top: 45vh;
+    text-transform: uppercase;
+    font-weight: 900;
+    padding: 10px 40px;
+    font-size:larger;
+    
+  }
+  .menu-button {
+    display: block;
+    cursor: pointer;
+   margin-left: -90vw;
+   font-weight: 900;
+   font-size: 2rem;
+  }
+  
+  .menu {
+    display: none;
+  }
+  
+  #menu-toggle:checked + .menu {
+    display: block;
+  }
+  
