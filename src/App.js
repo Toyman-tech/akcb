@@ -59,12 +59,13 @@ render(){
       </ul>
     </nav>
         </div>
-    
+      <div className='none' >
         <a href="#stori">Team</a>
       <a href="#roadmap">Roadmap</a>
       <a href="#team">Faq</a>
       <a href="#community">discord</a>
       <a href="#community">twitter</a>
+      </div>
         </div>
       
        <div className='search'>
